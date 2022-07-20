@@ -70,9 +70,12 @@ header{
     font-size: large;
 }
 .h2-subtitulo{
-    color: white;
     font-size: 30px;
     align-content: center
+}
+/*git*/
+.git{
+    color: blueviolet;
 }
 /*nav-barra*/
 .nav-barra{
