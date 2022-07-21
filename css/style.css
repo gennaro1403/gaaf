@@ -9,42 +9,27 @@
 /*grilla*/
 .grilla-gaaf{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 3fr;
+    width: 100%;
+    height: 100vh;
     background-color:black;
-    margin-bottom: 1,5em;
+    margin-bottom: 1.5em;
     gap: 10px;
-    
     grid-template-areas:
-    "principal" 
     "header"
-    "subtitulo"
-    "nav-barra"
-    "asesoria"
-    "aside"
-    "productos"
-    "aside"
-    "servicios"
-    "aside"
-    "practica"
-    "colaboracion"
-    "footer"
-    ;
+    "main"
+    "footer";
 }
 /*encabezado logo*/
 body{
     display: flex;
     flex-direction: column;
-    align-content: space-between;
     text-align: center;
-    height: 100vh;
     background-color: black;
     align-content: center;
 }
 /*gaaf principal*/
-.principal{
-    justify-content: center;
-    grid-area:"principal";
-}
 .h1-principal{
     color: rgb(71, 224, 41);
     background-color: black;
@@ -52,33 +37,18 @@ body{
     font-family: 'Anek Latin', sans-serif;
 }
 /*contenedor barra*/
-header{
-    grid-area:"header";
-    justify-content: center;
-}
 .barra{
+    grid-area: "header";
     background-color: black;
     justify-content: center;
-    font-size: large;
-    font-family: 'Roboto', sans-serif; 
-    font-size: 60px;
 }
 /*h2subtitulo*/
-.subtitulo{
-    grid-area:"subtitulo";
-    justify-content: center;
-    font-size: large;
-}
 .h2-subtitulo{
     color: white;
     font-size: 30px;
     align-content: center
 }
 /*nav-barra*/
-.nav-barra{
-    grid-area:"nav-barra";
-    justify-content: center;
-}
 .nav-header{
     background-color: black
 }
@@ -100,6 +70,7 @@ header{
 }
 /*asignaiones*/
 a{  
+    font-family: 'Roboto', sans-serif;
     color: rgb(71, 224, 41);
     text-decoration:none;
 }
@@ -110,11 +81,10 @@ a{
 }       
 /*info/principal/producto/servicios*/
 main{
-    background-color: black; 
+    background-color: black;
 }
 /*1seccion/*/
 .asesoria{
-    grid-area:"asesoria";
     justify-content: center;
 }
 /*primera-div*/
@@ -126,7 +96,6 @@ main{
     align-items: center;
     background-color: black;
     color: white;
-    min-heigth:100vh;
     margin:60px;
 }
 /*h2-secundario-gaaf*/
@@ -146,7 +115,7 @@ main{
 /*parrafo-comun*/
 .p-flex{
     display: flex;
-    color:white  
+    color:rgb(139, 61, 134); 
     font-family: 'Roboto', sans-serif; 
     text-align: justify;
     font-size: 25px;
@@ -161,7 +130,6 @@ main{
     align-items:center;
     background-color: black;
     color: white;
-    min-heigth:100vh;
     margin:60px;
 }
 /*parrafo-contraste*/
@@ -174,12 +142,10 @@ main{
     align-items: center;
     background-color: black;
     color: white;
-    min-heigth:100vh;
     margin:60px;
 }
 /*publicidad*/
 .publicidad{
-    grid-area:"aside";
     background-color: aqua;
 }
 .tex-pub{
@@ -187,26 +153,18 @@ main{
 }
 /*2seccion*/
 .productos{
-    grid-area:"productos";
-    font-size: large;
     justify-content: center;
 }
 /*3seccion*/
 .servicios{
-    grid-area:"servicios";
-    font-size: large;
     justify-content: center;
 }    
 /*4seccion*/
 .practica{
-    grid-area:"practica";
-    font-size: large;
     justify-content: center;
 }
 /*5seccion*/
 .colaboracion{
-    grid-area:"colaboracion";
-    font-size: large;
     justify-content: center;
 }
 /*article-colaboracion*/
@@ -251,59 +209,41 @@ form{
     border:3px solid blueviolet
 }
 
-@media (min-width:480px){
+@media (max-width:480px){
 .grilla-gaaf{
+    width: 480px;
+    height: 100vh;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 3fr 1fr ;
+    margin: 0;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(49,226,84,0.7852183109571954) 100%, rgba(0,212,255,1) 100%);
-    margin: 0;
     grid-template-areas: 
-    "principal principal"
     "header header"
-    "subtitulo subtitulo "  
-    "nav-barra nav-barra"
-    "asesoria asesoria"
-    "aside aside"
-    "productos productos"
-    "aside aside"
-    "servicios servicios"
-    "aside aside"
-    "practica practica"
-    "colaboracion colaboracion"
+    "main main"
     "footer footer";
-    grid-template-columns: 1fr 3fr;}
+    }
 }
-@media (min-width:768px){
+@media (max-width:768px){
     .grilla-gaaf{
-    background: rgb(2,0,36);
-        bbackground: rgb(2,0,36);
+        width: 768px;
+        grid-template-columns: 1fr 3fr ifr;
         background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(49,226,84,0.6143499636182599) 100%, rgba(0,212,255,1) 100%);
         margin: 0;
         grid-template-areas:
-        "principal principal principal"
         "header header header"
-        "subtitulo subtitulo subtitulo "  
-        "nav-barra nav-barra nav-barra"
-        "asesoria asesoria asesoria"
-        "aside aside aside"
-        "productos productos productos"
-        "aside aside aside"
-        "servicios servicios servicios"
-        "aside aside aside"
-        "practica practica practica"
-        "colaboracion colaboracion colaboracion"
+        "main main main"
         "footer footer footer";
-        grid-template-columns: 1fr 3fr ifr;
+        
         margin-bottom: 1.5em;}    
     }
-    @media (min-width:1024px){
-        body{
-            background-color: black;
-        }
-        .grilla-gaaf{
-            background: rgb(15,78,47);
-            background: linear-gradient(90deg, rgba(15,78,47,0.9336776947106968) 0%, rgba(49,226,84,0.6143499636182599) 100%, rgba(0,212,255,1) 100%);
-            margin: 0;
-            margin-bottom: 1.5em;}    
+    @media (max-width:1024px){
+        width: 1024px;
+    .grilla-gaaf{
+        background: rgb(15,78,47);
+        background: linear-gradient(90deg, rgba(15,78,47,0.9336776947106968) 0%, rgba(49,226,84,0.6143499636182599) 100%, rgba(0,212,255,1) 100%);
+        margin: 0;
+        margin-bottom: 1.5em;}    
         }
         
 /*tipografia font-family: 'Anek Latin', sans-serif;
