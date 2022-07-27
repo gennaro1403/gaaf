@@ -6,245 +6,47 @@
 }
 @import url('https://fonts.googleapis.com/css2? family=Anek+Latin:wght@400;500&family=Roboto:wght@400;500&display=swap');
 
+@media screen and (min-width:500px){
 /*grilla*/
 .grilla-gaaf{
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-template-rows: 3fr;
-    width: 100%;
-    height: 100vh;
-    background-color:black;
+    background-color: antiquewhite;
+    margin: 0;
     margin-bottom: 1.5em;
-    gap: 10px;
     grid-template-areas:
     "header"
+    "nav-header"
     "main"
-    "footer";
+    "aside"
+    "footer";    
 }
-/*encabezado logo*/
-body{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: black;
-    align-content: center;
+.header{
+    background-color:yellowgreen;
+    grid-area: header;
 }
-/*gaaf principal*/
-.h1-principal{
-    color: rgb(71, 224, 41);
-    background-color: black;
-    font-size: 50px;
-    font-family: 'Anek Latin', sans-serif;
-}
-/*contenedor barra*/
-.barra{
-    grid-area: "header";
-    background-color: black;
-    justify-content: center;
-}
-/*h2subtitulo*/
-.h2-subtitulo{
-    color: white;
-    font-size: 30px;
-    align-content: center
-}
-/*nav-barra*/
 .nav-header{
-    background-color: black
+    background-color: yellow;
+    grid-area: nav-header;
 }
-/*ul-lista barra*/
-.lista-barra{
-    display:flex;
-    flex-direction: row;
-    list-style: none;
-    padding-top: 15px;
-    justify-content:space-between;
+.main{
+    background-color: coral;
+    grid-area: main;
 }
-/*li-contenedor*/
-.contenedor{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    font-size: 15px;
-    margin: 0 10px;
+.aside{
+    background-color: blueviolet;
+    grid-area: aside;
 }
-/*asignaiones*/
-a{  
-    font-family: 'Roboto', sans-serif;
-    color: rgb(71, 224, 41);
-    text-decoration:none;
-}
-/*contacto/buscador/shopping*/
-.redes-nav{
-    display:inline-flex;
-    padding-top: 30px;
-}       
-/*info/principal/producto/servicios*/
-main{
-    background-color: black;
-}
-/*1seccion/*/
-.asesoria{
-    justify-content: center;
-}
-/*primera-div*/
-.div-flex{
-    display:flex;
-    flex-direction:column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: black;
-    color: white;
-    margin:60px;
-}
-/*h2-secundario-gaaf*/
-.secundario{
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color: rgb(71, 224, 41);
-}
-/*parrafos-importantes*/
-.p-principal{
-    color:darkorange;
-    font-family: 'Anek Latin', sans-serif;   
-    text-align: justify;
-    font-size: 25px;
-    text-align: justify;
-}
-/*parrafo-comun*/
-.p-flex{
-    display: flex;
-    color:rgb(139, 61, 134); 
-    font-family: 'Roboto', sans-serif; 
-    text-align: justify;
-    font-size: 25px;
-}
-/*parrafo-contraste*/
-.div-flex2{
-    display:flex;
-    flex-direction:column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content:space-evenly;
-    align-items:center;
-    background-color: black;
-    color: white;
-    margin:60px;
-}
-/*parrafo-contraste*/
-.div-flex3{
-    display: flex;
-    flex-direction:column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content:space-evenly;
-    align-items: center;
-    background-color: black;
-    color: white;
-    margin:60px;
-}
-/*publicidad*/
-.publicidad{
-    background-color: aqua;
-}
-.tex-pub{
-    color: black;
-}
-/*2seccion*/
-.productos{
-    justify-content: center;
-}
-/*3seccion*/
-.servicios{
-    justify-content: center;
-}    
-/*4seccion*/
-.practica{
-    justify-content: center;
-}
-/*5seccion*/
-.colaboracion{
-    justify-content: center;
-}
-/*article-colaboracion*/
-.asesores{
-    background-color: black;
-}
-.texto-asesores{
-    color: rgb(184, 235, 17);
-}
-/*pie-pagina*/
-footer{
-    grid-area: "footer";
-    background-color: black;
-    margin-top: 20px;
-    margin-bottom: 0px;
-}
-/*pie-pagina/redes/suscripción*/
-.nav-footer{
-    color: black;
-}
-.texto-footer{
-    color: rgb(184, 235, 17);
-}
-.lista-footer{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.contenedor-footer{
-    display:block;
-    font-size: 15px 
-}
-.redes-footer{
-    display:inline-block
-}
-form{
-    color: rgb(184, 235, 17);
+.footer{
+    background-color: burlywood;
+    grid-area: footer;
 }
 
-.border{
-    border:3px solid blueviolet
-}
 
-@media (max-width:480px){
-.grilla-gaaf{
-    width: 480px;
-    height: 100vh;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 3fr 1fr ;
-    margin: 0;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(49,226,84,0.7852183109571954) 100%, rgba(0,212,255,1) 100%);
-    grid-template-areas: 
-    "header header"
-    "main main"
-    "footer footer";
-    }
-}
-@media (max-width:768px){
-    .grilla-gaaf{
-        width: 768px;
-        grid-template-columns: 1fr 3fr ifr;
-        background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(49,226,84,0.6143499636182599) 100%, rgba(0,212,255,1) 100%);
-        margin: 0;
-        grid-template-areas:
-        "header header header"
-        "main main main"
-        "footer footer footer";
-        
-        margin-bottom: 1.5em;}    
-    }
-    @media (max-width:1024px){
-        width: 1024px;
-    .grilla-gaaf{
-        background: rgb(15,78,47);
-        background: linear-gradient(90deg, rgba(15,78,47,0.9336776947106968) 0%, rgba(49,226,84,0.6143499636182599) 100%, rgba(0,212,255,1) 100%);
-        margin: 0;
-        margin-bottom: 1.5em;}    
-        }
-        
+
+
+
+
+
+
+
 /*tipografia font-family: 'Anek Latin', sans-serif;
 font-family: 'Roboto', sans-serif; */
