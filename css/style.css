@@ -6,308 +6,47 @@
 }
 @import url('https://fonts.googleapis.com/css2? family=Anek+Latin:wght@400;500&family=Roboto:wght@400;500&display=swap');
 
+@media screen and (min-width:500px){
 /*grilla*/
 .grilla-gaaf{
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color:black;
-    margin-bottom: 1,5em;
-    gap: 10px;
-    
+    background-color: antiquewhite;
+    margin: 0;
+    margin-bottom: 1.5em;
     grid-template-areas:
-    "principal" 
     "header"
-    "subtitulo"
-    "nav-barra"
-    "asesoria"
+    "nav-header"
+    "main"
     "aside"
-    "productos"
-    "aside"
-    "servicios"
-    "aside"
-    "practica"
-    "colaboracion"
-    "footer"
-    ;
+    "footer";    
 }
-/*encabezado logo*/
-body{
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    text-align: center;
-    height: 100vh;
-    background-color: black;
-    align-content: center;
-}
-/*gaaf principal*/
-.principal{
-    justify-content: center;
-    grid-area:"principal";
-}
-.h1-principal{
-    color: rgb(71, 224, 41);
-    background-color: black;
-    font-size: 50px;
-    font-family: 'Anek Latin', sans-serif;
-}
-/*contenedor barra*/
-header{
-    grid-area:"header";
-    justify-content: center;
-}
-.barra{
-    background-color: black;
-    justify-content: center;
-    font-size: large;
-    font-family: 'Roboto', sans-serif; 
-    font-size: 60px;
-}
-/*h2subtitulo*/
-.subtitulo{
-    grid-area:"subtitulo";
-    justify-content: center;
-    font-size: large;
-}
-.h2-subtitulo{
-    font-size: 30px;
-    align-content: center
-}
-/*git*/
-.git{
-    color: blueviolet;
-}
-/*nav-barra*/
-.nav-barra{
-    grid-area:"nav-barra";
-    justify-content: center;
+.header{
+    background-color:yellowgreen;
+    grid-area: header;
 }
 .nav-header{
-    background-color: black
+    background-color: yellow;
+    grid-area: nav-header;
 }
-/*ul-lista barra*/
-.lista-barra{
-    display:flex;
-    flex-direction: row;
-    list-style: none;
-    padding-top: 15px;
-    justify-content:space-between;
+.main{
+    background-color: coral;
+    grid-area: main;
 }
-/*li-contenedor*/
-.contenedor{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    font-size: 15px;
-    margin: 0 10px;
+.aside{
+    background-color: blueviolet;
+    grid-area: aside;
 }
-/*asignaiones*/
-a{  
-    color: rgb(71, 224, 41);
-    text-decoration:none;
-}
-/*contacto/buscador/shopping*/
-.redes-nav{
-    display:inline-flex;
-    padding-top: 30px;
-}       
-/*info/principal/producto/servicios*/
-main{
-    background-color: black; 
-}
-/*1seccion/*/
-.asesoria{
-    grid-area:"asesoria";
-    justify-content: center;
-}
-/*primera-div*/
-.div-flex{
-    display:flex;
-    flex-direction:column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: black;
-    color: white;
-    min-heigth:100vh;
-    margin:60px;
-}
-/*h2-secundario-gaaf*/
-.secundario{
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color: rgb(71, 224, 41);
-}
-/*parrafos-importantes*/
-.p-principal{
-    color:darkorange;
-    font-family: 'Anek Latin', sans-serif;   
-    text-align: justify;
-    font-size: 25px;
-    text-align: justify;
-}
-/*parrafo-comun*/
-.p-flex{
-    display: flex;
-    color:white  
-    font-family: 'Roboto', sans-serif; 
-    text-align: justify;
-    font-size: 25px;
-}
-/*parrafo-contraste*/
-.div-flex2{
-    display:flex;
-    flex-direction:column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content:space-evenly;
-    align-items:center;
-    background-color: black;
-    color: white;
-    min-heigth:100vh;
-    margin:60px;
-}
-/*parrafo-contraste*/
-.div-flex3{
-    display: flex;
-    flex-direction:column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content:space-evenly;
-    align-items: center;
-    background-color: black;
-    color: white;
-    min-heigth:100vh;
-    margin:60px;
-}
-/*publicidad*/
-.publicidad{
-    grid-area:"aside";
-    background-color: aqua;
-}
-.tex-pub{
-    color: black;
-}
-/*2seccion*/
-.productos{
-    grid-area:"productos";
-    font-size: large;
-    justify-content: center;
-}
-/*3seccion*/
-.servicios{
-    grid-area:"servicios";
-    font-size: large;
-    justify-content: center;
-}    
-/*4seccion*/
-.practica{
-    grid-area:"practica";
-    font-size: large;
-    justify-content: center;
-}
-/*5seccion*/
-.colaboracion{
-    grid-area:"colaboracion";
-    font-size: large;
-    justify-content: center;
-}
-/*article-colaboracion*/
-.asesores{
-    background-color: black;
-}
-.texto-asesores{
-    color: rgb(184, 235, 17);
-}
-/*pie-pagina*/
-footer{
-    grid-area: "footer";
-    background-color: black;
-    margin-top: 20px;
-    margin-bottom: 0px;
-}
-/*pie-pagina/redes/suscripción*/
-.nav-footer{
-    color: black;
-}
-.texto-footer{
-    color: rgb(184, 235, 17);
-}
-.lista-footer{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.contenedor-footer{
-    display:block;
-    font-size: 15px 
-}
-.redes-footer{
-    display:inline-block
-}
-form{
-    color: rgb(184, 235, 17);
+.footer{
+    background-color: burlywood;
+    grid-area: footer;
 }
 
-.border{
-    border:3px solid blueviolet
-}
 
-@media (min-width:480px){
-.grilla-gaaf{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(49,226,84,0.7852183109571954) 100%, rgba(0,212,255,1) 100%);
-    margin: 0;
-    grid-template-areas: 
-    "principal principal"
-    "header header"
-    "subtitulo subtitulo "  
-    "nav-barra nav-barra"
-    "asesoria asesoria"
-    "aside aside"
-    "productos productos"
-    "aside aside"
-    "servicios servicios"
-    "aside aside"
-    "practica practica"
-    "colaboracion colaboracion"
-    "footer footer";
-    grid-template-columns: 1fr 3fr;}
-}
-@media (min-width:768px){
-    .grilla-gaaf{
-    background: rgb(2,0,36);
-        bbackground: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(49,226,84,0.6143499636182599) 100%, rgba(0,212,255,1) 100%);
-        margin: 0;
-        grid-template-areas:
-        "principal principal principal"
-        "header header header"
-        "subtitulo subtitulo subtitulo "  
-        "nav-barra nav-barra nav-barra"
-        "asesoria asesoria asesoria"
-        "aside aside aside"
-        "productos productos productos"
-        "aside aside aside"
-        "servicios servicios servicios"
-        "aside aside aside"
-        "practica practica practica"
-        "colaboracion colaboracion colaboracion"
-        "footer footer footer";
-        grid-template-columns: 1fr 3fr ifr;
-        margin-bottom: 1.5em;}    
-    }
-    @media (min-width:1024px){
-        body{
-            background-color: black;
-        }
-        .grilla-gaaf{
-            background: rgb(15,78,47);
-            background: linear-gradient(90deg, rgba(15,78,47,0.9336776947106968) 0%, rgba(49,226,84,0.6143499636182599) 100%, rgba(0,212,255,1) 100%);
-            margin: 0;
-            margin-bottom: 1.5em;}    
-        }
-        
+
+
+
+
+
+
+
 /*tipografia font-family: 'Anek Latin', sans-serif;
 font-family: 'Roboto', sans-serif; */
