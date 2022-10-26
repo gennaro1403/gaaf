@@ -38,6 +38,11 @@ body{
     margin-top: 120px;
     padding: 20px;
 }
+/*main/tienda*/
+.tienda-1{
+    padding-top: 120px;
+
+}
 .p-flex{
     font-family: 'reboto',sans-serif;
     font-size: 25px;
@@ -81,6 +86,21 @@ body{
 .comilleo{
     color: hsla(107, 98%, 49%, 0.872);
 }
+/*negocios*/
+.destacados{
+    background-color: black;
+}
+.destacados-1{
+    font-size: 30px;
+    color: hsla(107, 98%, 49%, 0.872);
+}
+
+.tarjeta-1{
+    background-color:black;
+    padding-left: 60px;
+}
+
+
 /*asesoria profesional*/
 .gaaf-3{
     background-color: black;
@@ -224,6 +244,18 @@ body{
 .atonito-1{
     font-size: 10px;
     color:rgba(255, 255, 255, 0.783);
+}
+/*carrusel-tienda*/
+.fabrica-1{
+    background-color: black;
+}
+.tiket-1{
+    height: 350px;
+    padding-bottom: 30px;
+}
+.tiket-2{
+    font-size:30px;
+    color:blueviolet;
 }
 /*practica tiro*/
 .gaaf-11{
