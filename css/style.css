@@ -38,11 +38,6 @@ body{
     margin-top: 120px;
     padding: 20px;
 }
-/*main/tienda*/
-.tienda-1{
-    padding-top: 120px;
-
-}
 .p-flex{
     font-family: 'reboto',sans-serif;
     font-size: 25px;
@@ -71,6 +66,91 @@ body{
     border-radius: 10px;
     border:1px solid #3cb548;
 }
+/*main/tienda*/
+.tienda-1{
+    padding-top: 120px;
+}
+/*main/asesoria*/
+.asesoria-1{
+    padding-top: 120px;
+}
+.imagen-fondo{
+    background-image: url("https://www.all4shooters.com/de/shooting/waffenkultur/deutsche-ipsc-rifle-meisterschaft-2016/deutsche-ipsc-rifle-meisterschaft-2016-stefan-foell.jpg?cid=acx.2eh&resize=44bb34:900x500c");
+}
+.asesoria-2{
+    height: 300px;
+}
+.p-asesorador{
+    margin-top: 170px;
+    font-size: 50px;
+    color: #15ea2a;
+}
+.posesión{
+    height: 300px;
+}
+.posesión-1{
+    background-color: black;
+    height: 300px;
+}
+.p-domicilio{
+    font-size: 35px;
+    padding-top: 80px;
+    color: #15ea2a;
+}
+.p-domicilio1{
+    font-size: 15px;
+    color:rgba(255, 255, 255, 0.783);
+    text-align: center;
+}
+.p-portación{
+    font-size: 35px;
+    padding-top: 80px;
+}
+.p-portacion1{
+    font-size: 15px;
+    text-align: center;
+}
+.p-portación2{
+    padding-top: 150px;
+}
+.transportacion{
+    height: 350px;
+}
+.transportacion1{
+    height: 300px;
+}
+.p-transportación{
+    font-size: 35px;
+    padding-top: 80px;
+}
+.p-transportacion{
+    font-size: 15px;
+    text-align: center;
+}
+.cartilla{
+    height: 300px;
+    background-color: black;
+}
+.p-cartilla{
+    font-size: 35px;
+    padding-top: 80px;
+    color: #15ea2a;
+}
+.p-cartilla1{
+    font-size: 15px;
+    color:rgba(255, 255, 255, 0.783);
+    text-align: center;
+}
+.ideas{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.p-dcam{
+    font-size: 35px;
+    color:blueviolet;
+    padding-top: 80px;
+}
+
 /*concienciacion*/
 .gaaf-2{
     background-color: black;
