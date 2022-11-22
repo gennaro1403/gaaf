@@ -85,6 +85,11 @@ body{
     font-size: 50px;
     color: #15ea2a;
 }
+.conocimiento-1{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
 .posesión{
     height: 300px;
 }
@@ -150,7 +155,50 @@ body{
     color:blueviolet;
     padding-top: 80px;
 }
-
+/*main registro*/
+.poseer{
+    background-color:black;
+    color:rgba(255, 255, 255, 0.783);
+    height:200px;
+    text-align:justify;
+    padding-top: 50px;
+    list-style: none;
+}
+.poseer-1{
+    text-align: center;
+    font-size: 20px;
+    color:blueviolet;
+}
+.requisitos{
+    background-color: black;
+}
+.requisitos-1{
+    font-size: 20px;
+    color: blueviolet;
+}
+.lista-1{
+    list-style: none;
+    text-align: left;
+    padding-left: 90px;
+}
+.requisitos-2{
+    background-color: azure;
+}
+.requisitos-3{
+    color:black;
+    font-size: 20px;
+}
+.requisitos-4{
+    color:rgba(255, 255, 255, 0.783);
+}
+.requisitos-5{
+    color: black;
+}
+/*main portación*/
+.portacion-1{
+    background-color: black;
+    padding-top: 80px;
+}
 /*concienciacion*/
 .gaaf-2{
     background-color: black;
