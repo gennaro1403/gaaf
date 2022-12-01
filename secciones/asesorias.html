@@ -1,117 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASESORIA GAAF</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link
         href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
+    <title>asesoria</title>
 </head>
-    <!--encabezado/logo-->
+
+<!--asesorias/pequeñas destrucciones-->
 <body>
-    <div class="grilla-gaaf">
-    <!--barra/servicios/buscador/ubicacion/carrito/perfil-->
-    <header class="header">
-        <h1 class="h1-principal">G.A.A.F.</h1>
-    </header>
-        <nav class="nav-header">
-            <h2 class="gaaf">ASESORIA PERSONALIZADA.</h2>
-            <ul class="lista-barra barra-lista">
-                <li class="contenedor"><a href="../index.html">INICIO</a><a/li>
-                <li class="contenedor"><a href="../secciones/nosotros.html">NOSOTROS</a></li>
-                <li class="contenedor"><a href="../secciones/asesorias.html">ASESORIAS</a></li>
-                <li class="contenedor"><a href="../secciones/servicios.html">SERVICIOS</a></li>
-                <li class="contenedor"><a href="../secciones/productos.html">PRODUCTOS</a></li>
-                <li class="contenedor"><a href="../secciones/tienda.html">TIENDA</a></li>
-                <li class="contenedor"><a href="../secciones/contacto.html">CONTACTO</a></li>
-                <li class="contenedor"><a href="http://" target="_blank">GAAF</a></li>
-            </ul>
-            </ul class="lista-barra">
-                <li class="redes-nav nav-redes redes">
-                    <img src="https://img.icons8.com/nolan/64/search.png"/>
-                    <img src="https://img.icons8.com/nolan/64/online-shopping.png"/>
-                    <img src="https://img.icons8.com/nolan/40/test-account.png"/>
-                    <img src="https://img.icons8.com/nolan/64/shopping-cart-loaded.png"/>
-                </li>
-            <ul>
+    <header>
+        <nav class="navbar navbar-dark nav-color fixed-top">
+            <div class="col-lg-12 col-md-12 col-sm-12 p-2 comunidad">pequeñas destrucciones</div>
+            <div class="container-fluid">
+                <a class="navbar-brand" style="color: hsla(107, 98%, 49%, 0.769);" href="../index.html">
+                <img src="./imagenes/420/gaaf.jpeg" alt="" width="70" height="54" class="d-inline-block align-text-center">GAAF.</a>
+                <button class="navbar-toggler" style="background-color:#07f51ba4;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" style="background-color:black" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                    <h5 class="offcanvas-title asesor" id="offcanvasNavbarLabel">GAAF.</h5>
+                    <button type="button" class="btn-close text-reset" style="background-color:grey;"  data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle ga-color" style="color:rgb(217, 240, 11);" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Grupo Asesor</a>
+                            <ul class="dropdown-menu menu-color" aria-labelledby="offcanvasNavbarDropdown">
+                                <li><a class="dropdown-item text-center" style="color:rgb(217, 240, 11);" href="../secciones/asesorias.html">Asesorias</a></li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item text-center" style="color:rgb(217, 240, 11);" href="../secciones/productos.html">Productos</a></li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item text-center" style="color:rgb(217, 240, 11);" href="../secciones/servicios.html">Servicios</a></li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item text-center" style="color:rgb(217, 240, 11);" href="../secciones/contacto.html">Contacto</a></li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item text-center" style="color:rgb(217, 240, 11);" href="../secciones/tienda.html">tienda</a></li>
+                            </ul>
+                        </li>
+                    </ul>                    
+                </div>
+            </div>
         </nav>
-    
+    </header>
     <!--cuerpo/-->
     <!--informacion/imagenes/video/-->
-    <main class="main cuerpo">
-        <div class="gaaf1">
-            <h2 class="secundario1">POSESION, PORTACIÓN Y TRANSPORTACIÓN</h2>
-            <img class="img" src="./imagenes/250/transportacion de arma.jpg" alt="transportacion">
-            <p class="p-flex">Para la Posesion en el Domicilio solo los calibres autorizados.</p>
-        </div>
-        <div class="gaaf2">
-            <h2 class="secundario1">ASESORIAS.</h2>
-            <img class="img" src="./imagenes/250/recreativo3.jpg" alt="asesoria">
-            <p class="p-flex">Grupo Asesor de Armas de Fuego nace de la Necesidad de Compartir la Información en Temas Relacionados
-                con el uso y empleo de las armas de fuego en mexico.</p>
-        </div>
-        <div class="gaaf3">
-            <h2 class="secundario1">ASESORIA PERSONALIZADA</h2>
-            <img class="img" src="./imagenes/250/compra dcam2.jpg" alt="compra">
-            <p class="p-flex">Grupo Asesor de Armas de Fuego se Especializa en Compartir la Experiencia de Compra en el
-                Departamento Comercializador de Armas de Fuego en Mexico de una Manera Personalizada.</p>
-        </div>
-        <div class="gaaf4">
-            <h2 class="secundario1">ADQUISICIÓN DCAM</h2>
-            <img class="img" src="./imagenes/250/personalizada.jpg" alt="personalizada">
-            <p class="p-flex">la constitucion politica de los estados unidos mexicanos en su articulo No. 10 nos da el derecho a
-                los ciudadanos mexicanos de poseer un arma de fuego para la proteccion y legitima defensa.</p>
-            <p class="p-flex">la ley federal de armas de fuego en su articulo No.10 nos da acceso a ciertos calibres de acuerdo a
-                su uso y empleo. siendo estos para la posesion, portacion y transportación para uso deportivo.</p>
-        </div>
-        <div class="gaaf5">
-            <h2 class="secundario1">REGISTRO DE ARMA</h2>
-            <p class="p-flex">Manifestacion de Arma de Fuego y Cambio de Propietario en sus diferentes modalidades</p>
-            <img class="img" src="./imagenes/250/ipsc.jpg" alt="ipsc">
-        </div>
-        <div class="gaaf6">
-            <h2 class="secundario1">PORTACION DE ARMA</h2>
-            <p class="p-flex">la portacion de armas de fuego en mexico es un privilegio y sera solicitado ante la sedena mediante los
-            conductos regulares, en gaaf te asesoramos para que tramites tu portacion de</p>
-            <img class="img" src="./imagenes/250/portacion de arma 2.jpg" alt="portacion de arma">
-        </div>
+    <main>
+        <section class="asesoria-1">
+            <div class="row imagen-fondo asesoria-2">
+                <div class="col-sm-12">
+                    <p class="p-asesorador">asesorias gaaf</p>               
+                </div>
+            </div>
+        </section>
+        <section class="conocimiento-1">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-7  ">
+                    <p class="h2 p-flex"> Adquiere Conocimiento con Asesorias GAAF.</p>
+                    <p class="h1 p-principal">Accede al mundo de las armas con información veridica y conoce los procedimientos para solicitar tu autorización de compra en dcam.</p>
+                    <p class="p-secundario">nuestras asesorias estan diseñadas para mostrarte el paso a paso y las buenas practicas del ingreso al mundo de las armas, creemos que la responsabilidad social recae en los individuos que gozan de información y es obligacion compartirla para una mejor sociedad.</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                        <img class="diseño-img" src="./imagenes/420/personalizada.jpg" alt="personalizada">
+                </div>
+            </div>                
+        </section>
+        <!--destruccion/social-->
+        <section class="gaaf-2">
+            <div class="row">
+                <div class="col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <p class="h3 concienciacion"><span class="comilleo">"</span>conciencizar a las nuevas generaciones.<span class="comilleo">"</span></p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-3">
+                        <p class="h3 concienciacion"><span class="comilleo">"</span>compartir la información, es valioso.<span class="comilleo">"</span></p>
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-3">
+                        <p class="h3 concienciacion"><span class="comilleo">"</span>preparate! ofrece calidad.<span class="comilleo">"</span></p>
+                    </div>
+                <div class="col-sm-1 col-md-1 col-lg-1"></div>
+            </div>
+        </section>
+        <!--asesoria/formatos-->
+        <section class="colaboracion container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <img  class="diseño-img" src="./imagenes/250x350/tiro6.jpg" alt="tiro6">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <p class="apoyo">invitación</p>
+                    <p class="compañeros">en gaaf invitamos al interesado a prepararse, fomentar las buenas practicas, compartir la información y el conocimiento para cambiar la ideologia en el uso y empleo de las armas, recordemos que una sociedad mas preparada es mas interesante!</p>            
+                </div>
+            </div>
+        </section>
+        <section class="posesión">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 posesión-1">
+                    <p class="p-domicilio">Posesion en el Domicilio</p>
+                    <p class="p-domicilio1">La posesion en el domicilio es un derecho constitucional, el desconocimiento y la falta de información han hecho que el ciudadano encuentre una opción en el mercado negro.</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <p class="p-portación">Portación de Arma de Fuego</p>
+                    <p class="p-portación1">La Portacion de Arma de Fuego en Mexico es un Privilegio y la Necesidad de contar con Un arma de Fuego para la Seguridad y Legitima Defensa es Cada vez Mayor. </p>
+                </div>
+            </div>
+        </section>
+        <section class="transportación">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 transportacion1">
+                    <p class="p-transportación">Transportación de Armas</p>
+                    <p class="p-transportación1">La Transportación de Armas de Fuego en Mexico son Autorizadas con Fines Cinegeticos y ExtraOrdinario para Cambio de Domicilio o Circustancia Mayor.</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 cartilla">
+                    <p class="p-cartilla">Cartilla Militar</p>
+                    <p class="p-cartilla1">La Demostración de Un Ciudadano Responsable al Cumplir con su Servicio Militar y Cultivar El Amor a la Patria tiene Sus Recompensas ya que Representa el 60% de los Tramites Relacionados Con las Armas de Fuego en Mexico. Haz tu Servicio! ok.</p>
+                </div>
+            </div>
+        </section>
+        <section class="gaaf-3 container-fluid ideas">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                    <div class="col-sm-12 col-md-12 col-lg-5 jambo">
+                        <li>
+                            <img class="icon" src="./imagenes/420/icons8-relámpago-25.png" alt="action">
+                            <p class="jambo-1">cambiar la ideologia en el uso y empleo de las armas de fuego.</p>
+                            <p class="jambo-2">la necesidad de contar con un arma de fuego es cada vez mayor y la responsabilidad del individuo de capacitarse en el uso y empleo de las armas de fuego de una manera responsable.</p>
+                        </li>
+                    </div>
+                    <div class=" col-sm-12 col-md-12 col-lg-5 jambo">
+                        <li>
+                            <img class="icon" src="./imagenes/420/icons8-estrella-25.png" alt="action">
+                            <p class="jambo-1">Grupo Asesor de Armas de Fuego.</p>
+                            <p class="jambo-3">gaaf Nace de la Necesidad de Compartir la Información en Temas Relacionados con las Armas de fuego en Mexico.</p>        
+                        </li>
+                    </div>
+                <div class="col-sm-12 col-md-1 col-lg-1"></div>
+            </div>
+        </section>
+        <section class="posesión">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 posesión-1">
+                    <p class="p-dcam">adquisicion en la dcam.</p>
+                    <p class="p-domicilio1">el departamento comercializador de armas de fuego es el unico autorizado para poder comercializar armas en mexico, depende de sedena.</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <p class="p-portación">Registro de Arma.</p>
+                    <p class="p-portación1">podras acceder a los requisitos y formatos que son necesarios para la manifestación de un arma de fuego ante la sedena, te hace propietario del arma. </p>
+                </div>
+            </div>
+        </section>
+        <section class="transportación">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 transportacion1">
+                    <p class="p-transportación">Cambio de Propietario</p>
+                    <p class="p-transportación1">accede a la informacion correcta sobre el cambio de propietario de un arma de fuego en sus diferentes modalidades, hacer esta buena practica te evitara muchos problemas!</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 cartilla">
+                    <p class="p-cartilla">calibres autorizados</p>
+                    <p class="p-cartilla1">los calibres autorizados para el uso civil en pistola .22",.25", .32" y 380", en rifle y escopeta calibres deportivos.</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <aside class="aside">
-        <h2 class="secundario1">PUBLICIDAD</h2>
-    </aside>
-    <!--piede pagina/nav/contacto-->
-    <footer class="footer">
-        <nav class="nav-footer">
-            <ul class="lista-footer">
-                <li class="contenedor-footer"><a href="../secciones/registro-arma.html">REGISTRO DE ARMA</a></li>
-                <li class="contenedor-footer"><a href="">CLUB CINEGETICO</a></li>
-                <li class="contenedor-footer"><a href=""> TIRO CON PISTOLA</a></li>
-                <li class="contenedor-footer"><a href="">S.M.N.</a></li>
-                <li class="contenedeor-footer"><a href="">PORTACIÓN</a></li>
-                <li class="contenedeor-footer"><a href="">TALLER DE REPARACIÓN</a></li>
-            </ul>
-            <ul class="lista-footer">
-                <li class="redes-footer"><img src="https://img.icons8.com/neon/25/000000/experimental-facebook-new-neon.png"/></li>
-                <li class="redes-footer"><img src="https://img.icons8.com/nolan/64/youtube.png"/></li>
-                <li class="redes-footer"><img src="https://img.icons8.com/stickers/100/000000/instagram-new--v2.png"/></li>
-            </ul>
-        </nav>
-        <form action="url destino">
-            <label class="label" for="nombre"><span>ingresa tu nombre por favor</span>
-                <input type="text" name="nombre" id="nombre" placeholder="nombre completo"></label>
-            <label class="label" for="email"><span>correo electronico</span>
-                <input type="email" name="email" id="emailAddress" placeholder="gaaf@example.com"></label>
-            <label class="label" for="contrasenna"><Span>contraseña</Span>
-                <input type="password" name="contrassena" id="contrassena"></label>
-            <input type="submit">
-        </form>
-    </footer>
-</div>
+    <!--pie de pagina/nav/contacto/rs/-->
+    <footer class="suscripcion">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-5 inscripcion">
+                <form action="url destino">
+                    <label class="label" for="nombre"><span>ingresa tu nombre por favor</span>
+                        <input type="text" name="nombre" id="nombre" placeholder="nombre completo"></label>
+                    <label class="label" for="email"><span>correo electronico</span>
+                        <input type="email" name="email" id="emailAddress" placeholder="gaaf@example.com"></label>
+                    <label class="label" for="contrasenna"><Span>contraseña</Span>
+                        <input type="password" name="contrassena" id="contrassena"></label>
+                    <input type="submit">
+                </form>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <nav>
+                    <p class="texto-footer">Conocer mas!</p>
+                    <ul class="lista-footer">
+                        <li class="contenedor-footer"><a href="../secciones/registro-arma.html">REGISTRO DE ARMA</a></li>
+                        <li class="contenedor-footer"><a href="">CLUB CINEGETICO</a></li>
+                        <li class="contenedor-footer"><a href="">TIRO CON PISTOLA</a></li>
+                        <li class="contenedor-footer"><a href="">S.M.N.</a></li>
+                        <li class="contenedor-footer"><a href="">PORTACION</a></li>
+                        <li class="contenedor-footer"><a href="">TALLER DE REPARACIÓN</a></li>
+                        <li class="contenedor-footer"><a href="http://" target="_blank">PAGINA GAAF</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3">
+                <nav>
+                    <p class="texto-footer"> redes sociales</p>
+                    <ul class="lista-footer">
+                        <li class="redes-footer"><img src="https://img.icons8.com/neon/25/000000/experimental-facebook-new-neon.png"/></li>
+                        <li class="redes-footer"><img src="https://img.icons8.com/nolan/64/youtube.png"/></li>
+                        <li class="redes-footer"><img src="https://img.icons8.com/stickers/100/000000/instagram-new--v2.png"/></li>
+                    </ul>
+                    <ul>
+                        <li class="redes-nav nav-redes redes">
+                            <img class="logo-redes" src="https://img.icons8.com/nolan/64/search.png"/>
+                            <img class="logo-redes" src="https://img.icons8.com/nolan/64/online-shopping.png"/>
+                            <img class="logo-redes" src="https://img.icons8.com/nolan/40/test-account.png"/>
+                            <img class="logo-redes" src="https://img.icons8.com/nolan/64/shopping-cart-loaded.png"/>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer> 
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
