@@ -1,91 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REGISTRO DE ARMA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link
         href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
+    <title>asesoria</title>
 </head>
 <!--encabezado/logo-->
 <body>
-    <div class="grilla-gaaf">
-        <!--barra/servicios/buscador/ubicacion/carrito/perfil-->
-        <header class="header">
-            <h1 class="h1-principal">G.A.A.F.</h1>
-        </header>        
-        <nav class="nav-header">
-            <h2 class="gaaf">MANIFESTACION DE ARMA.</h2>
-            <ul class="lista-barra barra-lista">
-                <li class="contenedor"><a href="../index.html">INICIO</a><a/li>
-                <li class="contenedor"><a href="../secciones/nosotros.html">NOSOTROS</a></li>
-                <li class="contenedor"><a href="../secciones/asesorias.html">ASESORIAS</a></li>
-                <li class="contenedor"><a href="../secciones/servicios.html">SERVICIOS</a></li>
-                <li class="contenedor"><a href="../secciones/productos.html">PRODUCTOS</a></li>
-                <li class="contenedor"><a href="../secciones/tienda.html">TIENDA</a></li>
-                <li class="contenedor"><a href="../secciones/contacto.html">CONTACTO</a></li>
-                <li class="contenedor"><a href="#" target="_blank">GAAF</a></li>
-            </ul>
-            <ul class="lista-barra">
-                <li class="redes-nav nav-redes redes">
-                    <img class="logo-redes" src="https://img.icons8.com/nolan/64/search.png"/>
-                    <img class="logo-redes" src="https://img.icons8.com/nolan/64/online-shopping.png"/>
-                    <img class="logo-redes" src="https://img.icons8.com/nolan/40/test-account.png"/>
-                    <img class="logo-redes" src="https://img.icons8.com/nolan/64/shopping-cart-loaded.png"/>
-                </li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-dark nav-color fixed-top">
+            <div class="col-lg-12 col-md-12 col-sm-12 p-2 comunidad">registra tu cuete</div>
+            <div class="container-fluid">
+                <a class="navbar-brand" style="color: hsla(107, 98%, 49%, 0.769);" href="../index.html">
+                <img src="./imagenes/420/gaaf.jpeg" alt="" width="70" height="54" class="d-inline-block align-text-center">GAAF.</a>
+                <button class="navbar-toggler" style="background-color:#07f51ba4;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" style="background-color:black" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                    <h5 class="offcanvas-title asesor" id="offcanvasNavbarLabel">GAAF.</h5>
+                    <button type="button" class="btn-close text-reset" style="background-color:grey;"  data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle ga-color" style="color:rgb(217, 240, 11);" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Grupo Asesor</a>
+                            <ul class="dropdown-menu menu-color" aria-labelledby="offcanvasNavbarDropdown">
+                                <li><a class="dropdown-item text-center" style="color:rgb(217, 240, 11);" href="../secciones/asesorias.html">Asesorias</a></li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item text-center" style="color:rgb(217, 240, 11);" href="../secciones/productos.html">Productos</a></li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item text-center" style="color:rgb(217, 240, 11);" href="../secciones/servicios.html">Servicios</a></li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item text-center" style="color:rgb(217, 240, 11);" href="../secciones/contacto.html">Contacto</a></li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item text-center" style="color:rgb(217, 240, 11);" href="../secciones/tienda.html">tienda</a></li>
+                            </ul>
+                        </li>
+                    </ul>                    
+                </div>
+            </div>
         </nav>
-        <!--cuerpo/-->
-        <!--informacion/imagenes/video/-->
-        <main class="main cuerpo">
-            <div class="gaaf1">
-                <h2 class="secundario">REGISTRO DE ARMA</h2>
-                <img class="img" src="./imagenes/250/registro federal.jpg" alt="registro federal">
-                <p class="p-flex">el registro federal de armas de fuego en mexico es la manifestacion de un arma a un individuo</p>
+    </header>
+    <!--información/3pub/formatos/video/suscripcion/-->
+    <main>
+        <section class="asesoria-1">
+            <div class="row imagen-fondo asesoria-2">
+                <div class="col-sm-12">
+                    <p class="p-asesorador">registro de arma.</p>               
+                </div>
             </div>
-            <div class="gaaf2">
-                <p class="p-flex">la manifestacion es para la posesion en el domicilio</p>
-                <img class="img" src="./imagenes/250/posesion.png" alt="posesion">
+        </section>
+        <!--cuerpo/información/acción--> 
+        <section class="portacion-1">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-7  ">
+                    <p class="h2 p-flex">manifestación inicial</p>
+                    <p class="h1 p-principal">si quieres ingresar al mundo de las armas, deberas saber que tu arma de fuego tiene que estar inscrita en el registro federal.</p>
+                    <p class="p-secundario">manifestar tu arma de fuego es darle a conocer al gobierno que eres un ciudadano responsable, preparado y cuentas con un arma de fuego en los calibres permitidos para la protección y legitima defensa.</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <picture>
+                        <source media="(min-width: 992px)" srcset="club caza.jpg">
+                        <source media="(min-width: 768px)" srcset="club caza.jpg">
+                        <img class="diseño-img" src="./imagenes/250x350/tiro deportivo.jpg" alt="tiro">
+                    </picture>
+                </div>
+            </div>                
+        </section>
+        <!--registro federal-->
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 poseer">
+                    <li>
+                        <p class="poseer-1">calibres autorizados</p>
+                        <p> pistola: 0.22", 0.25", 0.32" y 0.380"</p>
+                    </li>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 poseer">
+                    <li>
+                        <p class="poseer-1">pistolas</p>
+                        <p>con funcionamiento semi-automatico.</p>
+                    </li>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 poseer">
+                    <li>
+                        <p class="poseer-1">escopetas y rifles.</p>
+                        <p>registro para tiro deportivo y/o actividades cinegeticas.</p>
+                    </li>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 poseer">
+                    <li>
+                        <p class="poseer-1">posesión.</p>
+                        <p>podras poseer un arma de fuego para la protección y legitima defensa.</p>
+                    </li>
+                </div>                 
             </div>
-        </main>
-        <!--publicidad-->
-        <aside class="aside">
-            <h2 class="secudario">Publicidad</h2>
-        </aside>
-        <!--piede pagina/nav/contacto-->
-        <footer class="footer">
-            <nav class="nav-footer">
-                <p class="texto-footer">Conocer mas!</p>
-                <ul class="lista-footer">
-                    <li class="contenedor-footer"><a href="../secciones/registro-arma.html">REGISTRO DE ARMA</a></li>
-                    <li class="contenedor-footer"><a href="">CLUB CINEGETICO</a></li>
-                    <li class="contenedor-footer"><a href="">TIRO CON PISTOLA</a></li>
-                    <li class="contenedor-footer"><a href="">S.M.N.</a></li>
-                    <li class="contenedeor-footer"><a href="">PORTACION DE ARMA</a></li>
-                    <li class="contenedeor-footer"><a href="">TALLER DE REPARACIÓN</a></li>
-                </ul>
-                <ul class="lista-footer">
-                    <li class="redes-footer"><img src="https://img.icons8.com/neon/25/000000/experimental-facebook-new-neon.png"/></li>
-                    <li class="redes-footer"><img src="https://img.icons8.com/nolan/64/youtube.png"/></li>
-                    <li class="redes-footer"><img src="https://img.icons8.com/stickers/100/000000/instagram-new--v2.png"/></li>
-                </ul>
-            </nav>
-            <form action="url destino">
-                <label class="label" for="nombre"><span>ingresa tu nombre por favor</span>
-                    <input type="text" name="nombre" id="nombre" placeholder="nombre completo"></label>
-                <label class="label" for="email"><span>correo electronico</span>
-                    <input type="email" name="email" id="emailAddress" placeholder="gaaf@example.com"></label>
-                <label class="label" for="contrasenna"><Span>contraseña</Span>
-                    <input type="password" name="contrassena" id="contrassena"></label>
-                <input type="submit">
-            </form>
-        </footer>
+        </section>
+        <!--experiencia-->    
+        <section class="gaaf-4 container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <img class="diseño-img" src="./imagenes/250x350/compra dcam.jpg" alt="compra">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <p class="spicologico">poseer un arma de fuego en el domicilio contrae responsabilidades penales, si bien es cierto que es la misma inseguridad la que nos motiva a adquirir y/o poseer un arma de fuego para protecciòn y legitima defensa, tambien es cierto que el desconocimiento puede convertirse en un obstaculo, la falta de información de la procedencia del arma o el hecho de no saber si ha sido usada en un acto desagradable.</p>
+                    <p class="spicologico">contar con información valiosa nos hace merecedores de la responsabilidad para tomar buenas decisiones que forjaran el rumbo de nuestra sociedad.</p>
+                </div>
+            </div>
+        </section>
+        <!--posesion domicilio-->
+        <section class="gaaf-10 container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-8">
+                    <p class="certificado">posesion en el domicilio.</p>
+                        <p class="spicologico">en gaaf creemos que la preparación del individuo y su constante aprendizaje puede lograr un cambio social.</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <img  class="diseño-img" src="./imagenes/250x350/registro federal.jpg" alt="practica4">
+                </div>
+            </div>
+        </section> 
+        <!--concienciacion-->
+        <section class="gaaf-2">
+            <div class="row">
+                <div class="col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-sm-12 col-md-4 col-lg-3">
+                        <p class="h3 concienciacion"><span class="comilleo">"</span>registra tu arma.<span class="comilleo">"</span></p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-3">
+                        <p class="h3 concienciacion"><span class="comilleo">"</span>concienciación en familia.<span class="comilleo">"</span></p>
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-4">
+                        <p class="h3 concienciacion"><span class="comilleo">"</span>medidas de seguridad.<span class="comilleo">"</span></p>
+                    </div>
+                <div class="col-sm-1 col-md-1 col-lg-1"></div>
+            </div>
+        </section>
+        <section class="posesión">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 posesión-1">
+                    <p class="p-domicilio">constitución politica.</p>
+                    <p class="p-domicilio1">si lees art. 8, 10, 14, 16 son como un salva-vidas en este mundo de tiburones.</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <p class="p-portación">ley federal de armas de fuego.</p>
+                    <p class="p-portación1">de este lado si lees art. 4, 7, 8, 9, 10, 10-bis, 11, 15, 16 y 19 te daras cuenta que el mundo de las armas de fuego en mexico no es tan complicado. preparate!</p>
+                </div>
+            </div>
+        </section>
+        <!--jambo/destrucción-->
+        <section class="gaaf-3 container-fluid ideas">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                    <div class="col-sm-12 col-md-12 col-lg-5 jambo">
+                        <li>
+                            <img class="icon" src="./imagenes/420/icons8-relámpago-25.png" alt="action">
+                            <p class="jambo-1">arma de fuego.</p>
+                            <p class="jambo-2">artefacto mecanico diseñado para ofender y/o defender.</p>
+                        </li>
+                    </div>
+                    <div class=" col-sm-12 col-md-12 col-lg-5 jambo">
+                        <li>
+                            <img class="icon" src="./imagenes/420/icons8-estrella-25.png" alt="action">
+                            <p class="jambo-1">registro federal</p>
+                            <p class="jambo-2">todos los ciudadanos que adquieran un arma de fuego deberan de manifestarla ante el registro federal.</p>        
+                        </li>
+                    </div>
+                <div class="col-sm-12 col-md-1 col-lg-1"></div>
+            </div>
+        </section>
+        <!--registro federal-->
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 poseer">
+                    <li>
+                        <p class="poseer-1">donacion y/O herencia</p>
+                        <p>un familiar te regalo una escopeta. registrala!</p>
+                    </li>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 poseer">
+                    <li>
+                        <p class="poseer-1">registro inicial.</p>
+                        <p>se considera el acta de nacimiento del arma de fuego.</p>
+                    </li>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 poseer">
+                    <li>
+                        <p class="poseer-1">registro dcam.</p>
+                        <p>cuando compras un arma con el proveedor de sedena.</p>
+                    </li>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 poseer">
+                    <li>
+                        <p class="poseer-1">registro armas modernas.</p>
+                        <p>con factura y permiso de importaciòn.</p>
+                    </li>
+                </div>                 
+            </div>
+        </section>
+        <!--registro federal-->    
+        <section class="gaaf-4 container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <img class="diseño-img" src="./imagenes/250x350/recreativo3.jpg" alt="recreativo3">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <p class="h1 p-principal p-asesoria">amigos del campo.</p>
+                    <p class="p-secundario">las personas que son trabajadoras del campo jornaleros, comuneros y ejidatarios podran portar su arma en sus tierras con el hecho de presentar el registro, asi como su credencial que lo acredite como trabajador del campo.</p>
+                </div>
+            </div>
+        </section>
+        <!--registro federal-->
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 poseer">
+                    <li>
+                        <p class="poseer-1">legitima defensa.</p>
+                        <p>el registro del arma sera tu aliado en el camino!</p>
+                    </li>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 poseer">
+                    <li>
+                        <p class="poseer-1">cambio de propietario.</p>
+                        <p>cede los derechos del arma de fuego y asume la responsabilidad.</p>
+                    </li>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 poseer">
+                    <li>
+                        <p class="poseer-1">coleccionistas.</p>
+                        <p>podran tener dentro de la coleccion armas de uso exclusivo del ejercito.</p>
+                    </li>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 poseer">
+                    <li>
+                        <p class="poseer-1">robo o extravio.</p>
+                        <p>levanta tu denuncia ante el mp, despues tramita su baja.</p>
+                    </li>
+                </div>                 
+            </div>
+        </section>
+        <!--compra en la tienda-->
+        <section class="gaaf-10 container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <p class="certificado">adquiere tu munición.</p>
+                    <p class="spicologico">con el hecho de presentar tu registro del arma, podras adquirir tu munición. solo expendios autorizados!</p>
+                    <a href="./secciones/nosotros.html" type="button" class="btn btn-outline experiencia">Vivir la Experiencia</a>                 
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <img  class="diseño-img" src="./imagenes/250x500/tienda cartuchos.jpg" alt="practica4">
+                </div>
+            </div>
+        </section>
+        <!--jambo/destrucción-->
+        <section class="gaaf-3 container-fluid ideas">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                    <div class="col-sm-12 col-md-12 col-lg-5 jambo">
+                        <li>
+                            <img class="icon" src="./imagenes/420/icons8-relámpago-25.png" alt="action">
+                            <p class="jambo-1">baja por defunción.</p>
+                            <p class="jambo-2">la baja por defunción se convierte en cambio de propietario y/o donación, presentar acta de defunción y registro anterior.</p>
+                        </li>
+                    </div>
+                    <div class=" col-sm-12 col-md-12 col-lg-5 jambo">
+                        <li>
+                            <img class="icon" src="./imagenes/420/icons8-estrella-25.png" alt="action">
+                            <p class="jambo-1">copia certificada.</p>
+                            <p class="jambo-2">podras solicitar una copia certificada del registro de tu arma en caso de extravio.</p>        
+                        </li>
+                    </div>
+                <div class="col-sm-12 col-md-1 col-lg-1"></div>
+            </div>
+        </section>
+        <!--requisitos registro-->
+        <section class="requisitos container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <nav>
+                        <p class="requisitos-1"> requisitos registro de arma.</p>
+                        <ul class="lista-1">
+                            <li><a class="requisitos-4" href="#">identificación oficial.</a></li>
+                            <li><a class="requisitos-4" href="#">curp.</a></li>
+                            <li><a class="requisitos-4" href="#">comprobante de domicilio.</a></li>
+                            <li><a class="requisitos-4" href="#">identificación de arma.</a></li>
+                            <li><a class="requisitos-4" href="#">carta de antecedentes penales.</a></li>
+                            <li><a class="requisitos-4" href="#">correo electronico.</a></li>
+                            <li><a class="requisitos-4" href="#">numero telefonico.</a></li>
+                            <li><a class="requisitos-4" href="#">pago forma e cinco</a></li>
+                        </ul>
+                        <p class="requisitos-1">actividades cinegeticas.</p>
+                        <ul class="lista-1">
+                            <li><a class="requisitos-4" href="#">credencial del club.</a></li>
+                            <li><a class="requisitos-4" href="#">licencia de caceria.</a></li>
+                        </ul>
+                        <p class="requisitos-1">por robo, extravio y/o defunción.</p>
+                        <ul class="lista-1">
+                            <li><a class="requisitos-4" href="#">acta de denuncia.</a></li>
+                            <li><a class="requisitos-4" href="#">acta de defunción.</a></li>
+                        </ul>
+                    </nav>                 
+                </div>
+                <!--requisitos cambio-->
+                <div class="col-sm-12 col-md-6 col-lg-6 requisitos-2">
+                    <nav>
+                        <p class="requisitos-3">cambio propietario.</p>
+                        <ul class="lista-1">
+                            <li><a class="requisitos-5" href="#">identificacion oficial.</a></li>
+                            <li><a class="requisitos-5" href="#">curp.</a></li>
+                            <li><a class="requisitos-5" href="#">comprobante de domicilio.</a></li>
+                            <li><a class="requisitos-5" href="#">identificación de arma.</a></li>
+                            <li><a class="requisitos-5" href="#">carta de antecedentes penales.</a></li>
+                            <li><a class="requisitos-5" href="#">correo electronico.</a></li>
+                            <li><a class="requisitos-5" href="#">numero telefonico.</a></li>
+                            <li><a class="requisitos-5" href="#">pago forma e cinco</a></li>
+                        </ul>
+                        <p class="requisitos-3">actividades cinegeticas.</p>
+                        <ul class="lista-1">
+                            <li><a class="requisitos-5" href="#">credencial del club.</a></li>
+                            <li><a class="requisitos-5" href="#">licencia de caceria</a></li>
+                        </ul>
+                        <p class="requisitos-3">del vendedor.</p>
+                        <ul class="lista-1">
+                            <li><a class="requisitos-5" href="#">copia curp.</a></li>
+                            <li><a class="requisitos-5" href="#">registro anterior.</a></li>
+                        </ul>
+                    </nav>                 
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--pie de pagina/nav/contacto/rs/-->
+    <footer class="suscripcion">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-5 inscripcion">
+                <form action="url destino">
+                    <label class="label" for="nombre"><span>ingresa tu nombre por favor</span>
+                        <input type="text" name="nombre" id="nombre" placeholder="nombre completo"></label>
+                    <label class="label" for="email"><span>correo electronico</span>
+                        <input type="email" name="email" id="emailAddress" placeholder="gaaf@example.com"></label>
+                    <label class="label" for="contrasenna"><Span>contraseña</Span>
+                        <input type="password" name="contrassena" id="contrassena"></label>
+                    <input type="submit">
+                </form>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <nav>
+                    <p class="texto-footer">Conocer mas!</p>
+                    <ul class="lista-footer">
+                        <li class="contenedor-footer"><a href="../secciones/registro-arma.html">REGISTRO DE ARMA</a></li>
+                        <li class="contenedor-footer"><a href="">CLUB CINEGETICO</a></li>
+                        <li class="contenedor-footer"><a href="">TIRO CON PISTOLA</a></li>
+                        <li class="contenedor-footer"><a href="">S.M.N.</a></li>
+                        <li class="contenedor-footer"><a href="">PORTACION</a></li>
+                        <li class="contenedor-footer"><a href="">TALLER DE REPARACIÓN</a></li>
+                        <li class="contenedor-footer"><a href="http://" target="_blank">PAGINA GAAF</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3">
+                <nav>
+                    <p class="texto-footer"> redes sociales</p>
+                    <ul class="lista-footer">
+                        <li class="redes-footer"><img src="https://img.icons8.com/neon/25/000000/experimental-facebook-new-neon.png"/></li>
+                        <li class="redes-footer"><img src="https://img.icons8.com/nolan/64/youtube.png"/></li>
+                        <li class="redes-footer"><img src="https://img.icons8.com/stickers/100/000000/instagram-new--v2.png"/></li>
+                    </ul>
+                    <ul>
+                        <li class="redes-nav nav-redes redes">
+                            <img class="logo-redes" src="https://img.icons8.com/nolan/64/search.png"/>
+                            <img class="logo-redes" src="https://img.icons8.com/nolan/64/online-shopping.png"/>
+                            <img class="logo-redes" src="https://img.icons8.com/nolan/40/test-account.png"/>
+                            <img class="logo-redes" src="https://img.icons8.com/nolan/64/shopping-cart-loaded.png"/>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
