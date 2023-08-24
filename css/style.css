@@ -51,6 +51,10 @@ body{
     margin-bottom: 25px;
     font-size: 35px;
 }
+.p-asesoria{
+    margin-top: 20px;
+    padding-left: 150px;
+}
 .p-secundario{
     color:rgba(217, 240, 11, 0.783);
     text-align:justify;
@@ -59,12 +63,12 @@ body{
 .experiencia{
     background-color: black;
     color:#3cb548;
-    border: 1px solid #15ea2a;
+    border:1px solid #9f3cb5;
     margin-bottom: 20px;
 }
 .diseño-img{
     border-radius: 10px;
-    border:1px solid #3cb548;
+    border:1px solid #9f3cb5;
 }
 /*main/tienda*/
 .tienda-1{
@@ -119,7 +123,7 @@ body{
     padding-top: 150px;
 }
 .transportacion{
-    height: 350px;
+    height: 300px;
 }
 .transportacion1{
     height: 300px;
@@ -147,8 +151,8 @@ body{
     text-align: center;
 }
 .ideas{
-    padding-top: 30px;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 .p-dcam{
     font-size: 35px;
@@ -169,6 +173,9 @@ body{
     font-size: 20px;
     color:blueviolet;
 }
+.autorizado{
+    text-align: center;
+}
 .requisitos{
     background-color: black;
 }
@@ -187,6 +194,7 @@ body{
 .requisitos-3{
     color:black;
     font-size: 20px;
+    padding-top: 30px;
 }
 .requisitos-4{
     color:rgba(255, 255, 255, 0.783);
@@ -268,10 +276,7 @@ body{
     background-color: black;
     padding-top: 40px;
 }
-.p-asesoria{
-    margin-top: 20px;
-    padding-left: 100px;
-}
+
 /*especialista*/
 .gaaf-5{
     background-color: black;
@@ -359,19 +364,19 @@ body{
     padding-bottom: 30px;
 }
 .practica{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .practica-1{
     height: 230px;
 }
 .atonito{
     font-size: 25px;
-    color:rgba(255, 255, 255, 0.783);
+    color:rgb(255, 255, 255);
 }
 .atonito-1{
     font-size: 10px;
-    color:rgba(255, 255, 255, 0.783);
+    color:rgb(255, 255, 255);
 }
 /*carrusel-tienda*/
 .fabrica-1{
@@ -454,7 +459,7 @@ body{
 /*footer/suscripción*/
 .suscripcion{
     background-color: black;
-    padding-top: 150px;
+
 }
 .inscripcion{
     padding-top: 80px;
@@ -470,9 +475,10 @@ body{
 .texto-footer{
     color:blueviolet;
     text-align: center;
+    padding-top: 25px;
 }
 .lista-footer{
-    text-align: left;
+    text-align: center;
 }
 .contenedor-footer{
     padding-top: 5px;
@@ -527,7 +533,13 @@ a{
         justify-content: center;
         align-items: center;
     }
-
+    .p-asesoria{
+        margin-top: 20px;
+        padding-left: 200px;
+    }
+    .lista-footer{
+        text-align: left;
+    }
 }
 
 
